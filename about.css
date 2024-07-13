@@ -1,0 +1,156 @@
+.image{
+    background-image: url(img/coco.png);
+    opacity: 5;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-size: 50px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .image h1{
+    font-size: 80px;
+    text-align: center;
+    color: var(--mainwhite);
+    padding: 320px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px var(--shadowgray);
+    }
+  
+  .wrapperCreator{
+    padding-right: 40px;
+   transition: all .5s ease-out;
+    /* float: left; */
+    background-size: 100%;
+    background-position:center;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--mainblue);
+  }
+  
+  .creatorImage{
+  
+    width:500px;
+    height: 200px;
+    margin: 40px;
+    float: left;
+    background-size: 100%;
+    transition:0.5s;
+    background-position:center;
+    position:relative;
+    
+    display: block;
+    outline: 2px solid white;
+    outline-offset: -15px;
+  }
+  
+  .images img{
+    height: 300px;
+    width: 900px;
+  }
+  .creatorContent{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+  }
+  
+  .creatorContent span{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--mainblue);
+    font-size: 18px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: -10px;
+  }
+  
+  .ourService{
+      font-size: 20px;
+      color: var(--mainblue);
+      padding-left: 100px;
+      
+      position: relative;
+      margin: 100px 0;
+      font-family: 'Permanent Marker', cursive;
+      
+  }
+  
+  
+  
+  .row{
+    width: 90%;
+    margin: 20px auto;
+    height: auto;
+    padding-top: 80px;
+  }
+  
+  .service{
+    text-align: center;
+    display: inline-block;
+    width: 29%;
+    margin: auto 1.5em;
+    border: 2px solid var(--maingray);
+    border-radius: 2px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 2px 1px 5px var(--maingray);
+  }
+  
+  .service i{
+    color: var(--mainblue);
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    text-shadow: 2px 1px 3px var(--maingray);
+  }
+  
+  .service h3{
+    color: var(--mainblue);
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    text-shadow: 2px 1px 3px var(--maingray);
+  }
+  
+  .service p{
+    color: var(--mainblue);
+    font-size: 18px;
+    padding-left: 30px;
+    padding-bottom:20px;
+    padding-right: 30px;
+  
+  }
+  .aboutListen{
+      font-size: 20px;
+      color: var(--mainblue);
+      padding-top: 30px;
+      padding-left: 100px;
+      position: relative;
+      margin: 70px 0;
+      font-family: 'Permanent Marker', cursive;
+      
+  }
+  
+  
+  
+  .listenContent{
+    width: 80%;
+    padding-left: 130px;
+    padding-bottom: 50px;
+  }
+  .listenContent span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: -10px;
+    color: var(--mainblue);
+  }
+  
+  

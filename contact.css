@@ -1,0 +1,199 @@
+.title{
+    background-image: url(img/dementia.JPG);
+    opacity: 5;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    font-size: 50px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 150px;
+  }
+  
+  .title h1{
+    font-size: 60px;
+    text-align: center;
+    color: var(--mainwhite);
+    padding-top: 150px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px var(--shadowgray);
+  }
+  
+  
+  
+  .row{
+    width: 80%;
+    display:flex;
+    height: auto;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+  }
+  
+  .info{
+    text-align: center;
+   height: 400px;;
+    width: 40%;
+    
+    margin: auto 1.5em;
+    border: 2px solid var(--maingray);
+    border-radius: 2px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 2px 1px 5px var(--maingray);
+    
+  }
+  
+  .info i{
+    color: var(--mainblue);
+    font-size: 50px;
+    
+    padding-bottom:20px;
+    text-shadow: 2px 1px 3px var(--maingray);
+  }
+  
+  .info h2{
+    color: var(--mainblue);
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom:20px;
+    text-shadow: 2px 1px 3px var(--maingray);
+  }
+  
+  .info h3{
+    color: var(--mainblue);
+    font-size: 22px;
+    padding: 1px 15px;
+    padding-bottom:20px;
+  }
+  
+  .info p{
+    color: var(--mainblue);
+    font-size: 18px;
+    padding-top: 3px;
+    
+  
+  }
+  
+  .info a{
+    text-decoration: none;
+    background-color: var(--mainblue);
+    color: white;
+   padding: 15px 30px;
+   border-radius: 6px;
+  }
+  
+  .contacts{
+    height: 200px;
+    width: 40%;
+   
+    display: inline-block;
+    color: var(--textblue);
+    text-align:left;
+    font-family: 'Permanent Marker', cursive;
+    padding-left: 92px;
+  }
+  
+  .contacts a{
+    text-decoration: none;
+    color: var(--shadowgray);
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .contacts h3{
+    font-size: 35px;
+    color: var(--mainblue);
+    font-family: 'Permanent Marker', cursive;
+    padding-bottom: 10px;
+  }
+  
+  .contacts p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .medias{
+    background-color: var(--mainblue);
+    background-image: url(img/skyline.png);
+    background-size: 300px;
+    background-repeat: repeat;
+    height: 100%;
+    display: flex;
+  }
+  
+  .intro{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+    flex: 1;
+    height: 120%;
+    padding-bottom: 50px;
+  }
+  
+  .intro h1{
+    padding-top: 50px;
+    padding-left:100px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .caption{
+   align-self: center;
+   width: 80%;
+  
+   
+  }
+  .caption ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .caption li{
+    
+    color: var(--mainwhite);
+  }
+  .caption a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 1px 3px var(--mainblue);
+  }
+  
+  .info2{
+    
+    font-family: 'Open Sans', sans-serif;
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  
+  .info2 span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-right: 30px;
+    color: whitesmoke;
+    padding-top: 100px;
+    text-shadow: 2px 1px 3px var(--mainblue);
+  }
+  
+  .contact{
+    padding-bottom: 15px;
+    padding-right: 60px;
+  }
+  
+  .contact i{
+    color: var(--secondarygray);
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  .mainheading h1{
+    font-size: 50px;
+  }

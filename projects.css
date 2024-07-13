@@ -1,0 +1,94 @@
+.image{
+    background-image: url(img/apartment.jpeg);
+    opacity: 5;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-size: 50px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .image h1{
+    font-size: 80px;
+    color: var(--mainwhite);
+    padding-top: 300px;
+    font-family: 'Open Sans', sans-serif;
+    }
+  
+  
+  
+  .project a{
+    text-decoration: none;
+  }
+  
+  .project li a:hover{
+    /* text-decoration: underline; */
+   color: rgb(0, 0, 0);
+  }
+  
+  .context span{
+    color: var(--mainblue);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    padding-left: px;
+    text-align: right;
+  }
+  .context h1{
+    color: var(--mainblue);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    padding-left: 65px;
+    padding-bottom: 40px;
+    text-shadow: 2px 2px gray;
+  }
+  .wrapper{
+    padding-right: 40px;
+    transition: all .5s ease-out;
+    float: left;
+    background-size: 100%;
+    transition:0.5s;
+    background-position:center;
+    position:relative;
+  }
+  
+  .project{
+  
+    display: inline-block;
+    outline: 2px solid white;
+    
+    width: 550px;
+    height: 300px;
+    /*float: left;*/
+    padding-right: 70px;
+   }
+  
+  .build{
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  
+  .context{
+   width: 70%;
+    padding-left: 300px;
+  }
+  
+  @media(max-width:900px){
+    .build img{
+      height: auto;
+    }
+  
+    .context h1{
+      display: block;
+      padding-top: 50px;
+      padding-right: 30px;
+    }
+    .context span{
+      display: block;
+      padding-top: 50px;
+      padding-right: 30px;
+    }
+  }
